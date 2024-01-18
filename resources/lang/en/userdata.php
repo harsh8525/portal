@@ -1,0 +1,33 @@
+<?php 
+return[
+    'srNo' => 'Sr. No.',
+    'title' => 'Users',
+    'moduleHeading' => 'Users',
+    'addUser' => 'User - Add',
+    'dashboard' => 'Dashboard',
+    'viewUser' => 'User - View',
+    'editUser' => 'User - Edit',
+    'username' => 'User Name',
+    'dashboard' => 'Dashboard',
+    'fullName' => 'Full Name',
+    'userFirstName' => 'First Name',
+    'userLastName' => 'Last Name',
+    'mobileNumber' => 'Mobile Number',
+    'email' => 'Email',
+    'address' => 'Address',
+    'pincode' => 'Pincode',
+    'perPageData' => 'Per Page Data',
+    'userList' => 'User List',
+    'landmark' => 'Landmark',
+    'action' => 'Action',
+    'cancel' => 'Cancel',
+    'submit' => 'Submit',
+    'add' => 'Add',
+    'edit' => 'Edit',
+    'username' => 'User Name',
+    'password' => 'Password',
+    'editAirport' => 'Airport - Edit',
+    'delete' => 'Delete',
+    
+];
+?>

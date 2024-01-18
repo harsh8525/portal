@@ -1,0 +1,72 @@
+.jqueryDatePicker .wrapper {
+  background-color: #fff;
+}
+.jqueryDatePicker .wrapper .prev{
+	font-size:0px !important;
+	background:url(../images/left_date.png) center no-repeat;
+	height:23px;
+	width:23px;
+}
+.jqueryDatePicker .wrapper .next {
+ font-size:0px !important;
+	background:url(../images/right_date.png) center no-repeat;
+	height:23px;
+	width:23px;
+}
+
+.jqueryDatePicker table tbody tr td:first-child .month tbody tr:first-child td.next{background-image:inherit !important;}
+.jqueryDatePicker table tbody tr td:last-child .month tbody tr:first-child td.prev{background-image:inherit !important;}
+
+/*.jqueryDatePicker table tbody tr td:last-child .month tbody tr:first-child{background:#ededed !important;}
+.jqueryDatePicker table tbody tr td:first-child .month tbody tr:first-child{background:#ededed !important;}*/
+
+.jqueryDatePicker .wrapper .yearMonth {
+  color: #000;
+  padding: 5px;
+  font-weight: bold;
+}
+.jqueryDatePicker .wrapper .weekdayName,
+.jqueryDatePicker .wrapper .date {
+  color: #000;
+  padding: 7px 10px;
+  text-align: center;
+}
+.jqueryDatePicker .wrapper .date {
+  cursor: pointer;
+}
+.jqueryDatePicker .wrapper .date.sun,
+.jqueryDatePicker .wrapper .date.sat,
+.jqueryDatePicker .wrapper .date.holiday {
+  color: #a00;
+}
+.jqueryDatePicker .wrapper .date.today {
+  border: 1px solid #999;
+}
+.jqueryDatePicker .wrapper .date.disabled {
+  color: #ddd;
+  background-color: #f7f7f7;
+  cursor: default;
+}
+.jqueryDatePicker .wrapper .date.selected {
+  font-weight: bold;
+  background-color:#FCC000;
+}
+.jqueryDatePicker .wrapper .date.hover {
+  background-color:#1F52A5;
+}
+.jqueryDatePicker .wrapper .date.start {
+  color: #fff;
+  background:#FCC000 !important;
+}
+.jqueryDatePicker .wrapper .date.between {
+  background-color:#1F52A5;
+  color:#fff;
+}
+.jqueryDatePicker .wrapper .date.point {
+  color: #fff;
+  background-color: #FCC000;
+}
+.jqueryDatePicker .wrapper .date.end {
+  color: #fff;
+  background:#FCC000;
+}
